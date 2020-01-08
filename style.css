@@ -1,4 +1,73 @@
-header{
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body{
+    overflow-x:hidden;
+    font-family: 'Roboto', sans-serif;
+    color: #505962;
+}
+/*---navigation--*/
+
+.navbar{
+    text-transform:uppercase;
+    font-weight:700;
+    font-size: 14px;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-brand{
+    height:2rem;
+}
+.navbar-nav li{
+    padding-right: .7rem;
+}
+.navbar-nav .navbar-link .navbar-dark{
+    padding-top: .8rem;
+    color: white;
+}
+
+/*---landing page--*/
+
+.caption{
+    width:100%;
+    max-width:100%;
+    /*--position: absolute;
+    top: 38%;--*/
+    padding-top: 300px;
+    padding-bottom: 350px;
+    text-shadow: .1rem .1rem .5rem black;
+    text-transform: uppercase;
+    color:white;
+    background-image: url(source/cross.jpg);
+    background-size: cover;
+}
+
+.caption h1{
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: .3rem;
+    padding-bottom: .9rem;
+}
+.caption h3{
+    font-size: 2rem;
+    text-shadow: .1 .1 .5 black;
+}
+
+#source{
+    padding-top: 20px;
+    background-color:rgba(255, 258, 128, .5);
+}
+#source h1{
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
+#source h3{
+    font-weight: 400;
+}
+#source h5{
+    padding-bottom:1rem ;
+    font-style: italic;
+}
+/*--header{
     font-family: 'Roboto', sans-serif;
 }
 .googlemaps{
@@ -29,3 +98,4 @@ img{
 iframe{
     margin-left: 200px;
 }
+--*/

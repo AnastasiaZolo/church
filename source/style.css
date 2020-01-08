@@ -1,0 +1,31 @@
+header{
+    font-family: 'Roboto', sans-serif;
+}
+.googlemaps{
+display: block;
+margin-left: 400px;
+}
+.vision{
+    text-shadow: 0.2px 0.2px 0.2px white ;
+    margin-left: 100px;
+}
+.row{
+    background-color: rgb(198, 243, 243);
+    color: rgb(18, 99, 88);
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0.2px 0.2px 0.2px black;
+}
+.col-md-6{    
+    margin-top:50px;  
+    text-shadow: 0.2px 0.2px 0.2px black; 
+}
+#welcome{
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0.2px 0.2px 0.2px black;
+}
+img{
+    margin-left: 200px;
+}
+iframe{
+    margin-left: 200px;
+}
