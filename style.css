@@ -30,43 +30,61 @@ body{
 .caption{
     width:100%;
     max-width:100%;
-    /*--position: absolute;
-    top: 38%;--*/
-    padding-top: 300px;
-    padding-bottom: 350px;
-    text-shadow: .1rem .1rem .5rem black;
-    text-transform: uppercase;
-    color:white;
+    padding-top: 50px; 
+    padding-bottom: 300px;
     background-image: url(source/cross.jpg);
     background-size: cover;
 }
 
 .caption h1{
-    font-size: 3rem;
-    font-weight: 600;
+    font-size: 1.7rem;
+    font-weight: 400;
     letter-spacing: .3rem;
-    padding-bottom: .9rem;
+    padding-top:20px;
+    padding-bottom: .8rem;
+    text-transform: uppercase;
+    color:white;
+    text-shadow: .1rem .1rem .5rem black;
+}
+.caption h2{
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: .1rem .1rem .5rem black;
 }
 .caption h3{
-    font-size: 2rem;
-    text-shadow: .1 .1 .5 black;
+    padding-top: 20px;
+    color:white;
+    text-shadow:.1rem .1rem .2rem black;
+}
+.caption h4{
+    color:white;
+    text-shadow: .1rem .1rem .2rem black; 
+}
+.caption h5{
+    font-style: italic;
+    padding-bottom: .9rem;
+    color:white;
+    text-shadow: .1rem .1rem .2rem black;
 }
 
-#source{
-    padding-top: 20px;
-    background-color:rgba(255, 258, 128, .5);
+.btn-md{
+    border-width: medium;
+    border-radius:0;
+    text-shadow: .1rem .1rem .2rem black;
+    font-size: 1.2rem;
+    margin:1rem;
 }
-#source h1{
-    padding-bottom: 1rem;
-    font-weight: 500;
+
+footer{
+    background-color: #40474e;
+    opacity:1;
+    color: white;
+    padding-left: 2rem;
 }
-#source h3{
-    font-weight: 400;
-}
-#source h5{
-    padding-bottom:1rem ;
-    font-style: italic;
-}
+
 /*--header{
     font-family: 'Roboto', sans-serif;
 }

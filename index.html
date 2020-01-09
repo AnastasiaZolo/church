@@ -2,7 +2,7 @@
          
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <title>Дом молитвы</title>
+  <title>Дом евангелия</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href=".\style.css">
@@ -14,7 +14,7 @@
   <!--navigation-->
     <header>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">ДОМ МОЛИТВЫ</a>
+        <a class="navbar-brand" href="#">ДОМ ЕВАНГЕЛИЯ</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,7 +36,18 @@
             <li class="nav-item">
               <a class="nav-link" href="#contacts">Контакты</a>
             </li>
-          </ul> 
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="pills-home-tab">
+              
+            </div>
+            <div class="tab-pane fade" id="sources" role="tabpanel" aria-labelledby="pills-profile-tab">
+              
+            </div>
+            <div class="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="pills-contact-tab">
+              
+            </div>
+          </div> 
         </div>
       </nav>
       <!--end navigation-->
@@ -51,18 +62,33 @@
         </div>
       </div>
     </div>
+
       <div class="caption text-center">
         <h1>Добро пожаловать</h1>
-        <h3>в церковь "Дом молитвы"</h3>
-      </div>
-      
+        <h2>в церковь "Дом евангелия"</h2><br>
 
-      <!--start jumbotron-->
-      <div class="jumbotron">
-        
-      </div>
-      
+        <a class="btn btn-outline-light btn-md" href="#first-time">Впервые на сайте?</a>
+        <a class="btn btn-outline-light btn-md" href="#gospel">Что такое Евангелие?</a>
+        <a class="btn btn-outline-light btn-md" href="#visit-church">Посетить церковь</a>
 
+        <h3>Расписание служений</h3><br>
+        <p class="lead">
+          <h4>Утреннее богослужение</h4><h5>Воскресенье в 11.00</h5>
+          <h4>Детская воскресная школа</h4><h5>Воскресенье в 11.30</h5>
+          <h4>Молодежное общение</h4><h5>Воскресенье в 17.00</h5>
+          <h4>Изучение библии</h4><h5>Среда в 19.00</h5>
+          <h4>Домашние группы</h4><h5>???</h5>
+        </p>
+      </div>
+
+      <!--first time-->
+      <div id="first-time">
+       <p> Как двери нашей церкви, так и наш сайт открыт для всех, стремящихся больше узнать о Боге и счастье новой жизни в Нём.
+Мы убеждены, что Бог является ответом на самые глубинные человеческие нужды. Только Его слово, Библия, способно полноценно и достаточно объяснить смысл существования этого мира и человека в нем, дать надежду отчаявшимся и научить практически угождать Богу в любой ситуации. Только Господь предлагает подлинное решение проблемы человеческого греха, вины, страха и смерти. Только Он дает человеческой душе столь желанные мир и счастье. И лишь один Господь достоин её нераздельного поклонения.
+Для проповеди этих истин на земле существует церковь. Если вы ещё не посещаете церковь или находитесь в поиске общины, которая стала бы для вас домом и местом духовного роста, мы будем рады послужить вам. Господь благословил нас заботливыми и любящими людьми, делающими всё возможное для того, чтобы реально помогать друг другу жить, отражая характер Иисуса Христа, наполняясь Его любовью, миром, уверенностью и способностью созидать окружающих.</p>
+      </div>
+
+     
 
     
   
@@ -105,14 +131,7 @@
               <!--start source section-->
               <div id="source" class="offset">
                 <div class="col-12 narrow text-center">
-                  <h1>Расписание служений</h1>
-                  <p class="lead">
-                    <h3>Утреннее богослужение</h3><h5>Воскресенье в 11.00</h5>
-                    <h3>Детская воскресная школа</h3><h5>Воскресенье в 11.30</h5>
-                    <h3>Молодежное общение</h3><h5>Воскресенье в 17.00</h5>
-                    <h3>Изучение библии</h3><h5>Среда в 19.00</h5>
-                    <h3>Домашние группы</h3><h5>???</h5>
-                  </p>
+                  
                 </div>
               </div>
               <!--end source section-->
@@ -182,6 +201,41 @@
       </nav>
       </div>
     </div>
+
+    
+
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
+
+  <!-- Footer Text -->
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-6 mt-md-0 mt-3">
+        <h5 class="text-uppercase font-weight-bold">Расписание служений</h5>
+        <p>Утреннее богослужение - Воскресенье в 11.00</p>
+        <p>Детская воскресная школа - Воскресенье в 11.30</p>
+        <p>Молодежное общение - Воскресенье в 17.00</p>
+        <p>Изучение библии - Среда в 19.00</p>  
+
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <div class="col-md-6 mb-md-0 mb-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">Как нас найти</h5>
+        <p>Псков, ул.Речная 14а</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2125.378152081589!2d28.36917111579904!3d57.81190208115387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c0193e2e0b5f9f%3A0x1f5b568ed91a0ad2!2z0KDQtdGH0L3QsNGPINGD0LsuLCAxNNCQLCDQn9GB0LrQvtCyLCDQn9GB0LrQvtCy0YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGPLCAxODAwMDQ!5e0!3m2!1sru!2spl!4v1578329899900!5m2!1sru!2spl" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+    </div>
+  </div>
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/">Церковь "Дом Евангелия"</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
     </header>
   </body>
 </html>
