@@ -3,28 +3,20 @@
 body{
     overflow-x:hidden;
     font-family: 'Roboto', sans-serif;
-    color: #505962;
+    background-color: #274564;
 }
 /*---navigation--*/
-
-.navbar{
+#myTab{
+    background-color:#274564;
+    color: white;
     text-transform:uppercase;
     font-weight:700;
     font-size: 14px;
     letter-spacing: .1rem;
-    background: rgba(0, 0, 0, 0.6)!important;
 }
-.navbar-brand{
-    height:2rem;
-}
-.navbar-nav li{
-    padding-right: .7rem;
-}
-.navbar-nav .navbar-link .navbar-dark{
-    padding-top: .8rem;
+.nav-link{
     color: white;
 }
-
 /*---landing page--*/
 
 .caption{
@@ -69,20 +61,20 @@ body{
     color:white;
     text-shadow: .1rem .1rem .2rem black;
 }
-
-.btn-md{
-    border-width: medium;
-    border-radius:0;
-    text-shadow: .1rem .1rem .2rem black;
-    font-size: 1.2rem;
-    margin:1rem;
-}
 .container-fluid{
     background-color:#274564 ;
+
 }
-.nav-link{
-    background-color:#274564;
-    color: white;
+#pills-tab{
+    justify-content: center;
+    border: .1rem ;
+    border-color: white;
+}
+
+#pills-first-tab{
+    justify-content: center;
+    border: .1rem ;
+    border-color: white;
 }
 .vision{
     color:black;
@@ -92,6 +84,9 @@ body{
 p{
     font-size: 15px;
     text-align: justify;
+}
+.introduction{
+    text-align: center;
 }
 footer{
     background-color: #274564;
