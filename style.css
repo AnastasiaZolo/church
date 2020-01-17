@@ -63,45 +63,23 @@ body{
     font-weight: 400;
 }
 
-/*--#pills-tab{
-    justify-content: center;
-    padding-top: 80px;
-    font-size: 1rem;
-    text-shadow: .1rem .1rem black;
+/*--CONTENT--*/
+.content{
+    width:90%;
+    margin: 30px auto 30px;
+    border: 1px solid gray;
 }
-
-#pills-first-tab{
-    justify-content: center;
-    border: .1rem solid white;
-    border-color: white;
+.content.main-content{
+    width: 70%;
+    float: left;
+    border:1px solid #274564;
 }
-
-#pills-gospel-tab{
-    justify-content: center;
-    border: .1rem solid white;
-    border-color: white;  
+.content.sidebar{
+    width:30%;
+    float:left;
+    border:1px dashed green;
+    height:300px;
 }
-#pills-visit-tab{
-    justify-content: center;
-    border: .1rem solid white;
-    border-color: white;
-}
-#gospel{
-    font-weight: 200;
-    text-align: justify;
-    margin-left: 2rem;
-    padding-right: 40rem;
-    color: whitesmoke; 
-}
-
-#first{
-    font-weight: 200;
-    text-align: justify;
-    margin-left: 2rem;
-    padding-right: 40rem;
-    color: whitesmoke;
-}
---*/
 #visit{
     color: whitesmoke;
     font-weight: 200;
