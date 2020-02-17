@@ -3,13 +3,14 @@
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <title>Дом евангелия</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href=".\style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
-
+   
+    <script src="./myfile.js"></script>
     
 
     <div class="container-fluid">
@@ -69,12 +70,35 @@
 
                   
 
-
                 <div class="tab-pane fade" id="source" role="tabpanel" aria-labelledby="source-tab">
-                  <div style="background-image: url(https://i.pinimg.com/originals/df/50/11/df50113f44b7707c62162e6f462b5817.jpg); background-repeat: no-repeat; background-size: cover;">
-                    <div class="content">
-                      <div class="main-content">
+                    <div class="content clearfix">
+                      <div class="main-content" id="main-articleList">
+                        <div id="articleList">
                         <h1 class="recent-post-title">Статьи</h1>
+                        <div class="post">
+                          <img src="old-couple.jpg" alt="" class="post-image">
+                          <div class="post-preview">
+                            <h4><a class="article-title" href="single.html">Шесть способов почитать родителей</a></h4>
+                            <i class="far fa-user">Тим Чаллис</i>
+                            &nbsp;
+                            <i class="far calendar">Mar 11,2019</i>
+                            <p class="preview-text">Божьи заповеди совершенно четко говорят, что требуется от их исполнителя. Но когда мы переходим в практическую плоскость следования заповедям, начинаются трудности. И тогда требуется молитва, размышления и творческий подход. С пятой заповедью дело обстоит именно так.   </p>
+                            <a href="single.html" class="btn read-more">Подробнее..</a>
+                          </div>
+                        </div>
+
+                        <div class="post">
+                          <img src="old-couple.jpg" alt="" class="post-image">
+                          <div class="post-preview">
+                            <h4><a class="article-title" href="single.html">Шесть способов почитать родителей</a></h4>
+                            <i class="far fa-user">Тим Чаллис</i>
+                            &nbsp;
+                            <i class="far calendar">Mar 11,2019</i>
+                            <p class="preview-text">Божьи заповеди совершенно четко говорят, что требуется от их исполнителя. Но когда мы переходим в практическую плоскость следования заповедям, начинаются трудности. И тогда требуется молитва, размышления и творческий подход. С пятой заповедью дело обстоит именно так.   </p>
+                            <button class="btn read-more" onclick="ExpandArticle()">Подробнее..</button>
+                          </div>
+                        </div>
+                      </div>
 
                       </div>
 
@@ -82,18 +106,19 @@
 
                       </div>
                     </div>
-                  </div>
+                  
                 </div>
-
+              
 
                   <div class="tab-pane fade" id="visit" role="tabpanel" aria-labelledby="visit-tab"> 
                     <div style="background-image: url(https://i.pinimg.com/736x/0a/32/8f/0a328fbdc656e55833498b6109f5ef27.jpg); background-repeat: no-repeat; background-size: cover;">
                       <h4>Где и когда проходят богослужения?</h4>
-                      <p>Утреннее богослужение -Воскресенье в 11.00</p>
-                      <p>Детская воскресная школа - Воскресенье в 11.30</p>
-                      <p>Молодежное общение - Воскресенье в 17.00</p>
-                      <p>Изучение библии - Среда в 19.00</p>
-                      <p>Наш адрес: Псков, ул.Речная 14а</p>
+                        <p>Утреннее богослужение - Воскресенье в 11.00</p>
+                        <p>Чаепитие - Воскресенье в 12.30 </p>
+                        <p>Общение для детей и подростков - Воскресенье в 12.45</p>
+                        <p>Изучение библии - Среда в 19.00</p> 
+                        <p>Молодежное общение - Четверг в 19.00 <br>(Место может меняться - уточняйте заранее)</p>
+                        <p>Наш адрес: Псков, ул.Речная 14а</p>
                     <h4>Что из себя представляет богослужение?</h4>
                       <p>Всё в Доме Божьем подчинено цели поклониться Богу. Поклонение – это не литургия. Это живое, искреннее выражение нашего благоговения, любви, восхищения и зависимости от Бога. Именно оно диктует форму, содержание, а иногда и порядок каких-то действий во время богослужения. Поэтому во время служения вы естественно услышите молитвы, пение, выражающее наше молитвенное обращение к Богу и друг ко другу. Большое время в течении богослужения отведено слушанию проповеди, так как именно понимание Божьей воли ведет нас к послушанию, то есть поклонению Богу нашим образом жизни (1Цар.15:13).</p>
                       <p>Если это ваше первое посещение церкви, мы очень рады чести разделить с вами этот опыт. Позвольте предложить вам несколько рекомендаций, которые помогут вам на богослужении.</p>
@@ -109,20 +134,20 @@
                       <p>Богослужение – это время выражения нашего поклонения Богу и служения друг другу. Знание этих целей помогает нам подобрать соответствующую происходящему одежду.</p>
                       <p>Поскольку церковь – это место поклонения Богу, а не нашей оригинальности, мы избегаем кричащего внешнего вида. А принцип служения друг другу помогает подобрать такую одежду, которая будет уважать стремление братьев и сестер к святости.</p>
                     <h4>Есть ли в церкви что-нибудь для моих детей?</h4>
-                      <p>Каждое воскресенье во время богослужений проходят детские библейские занятия в отдельной комнате.</p>
+                      <p>Каждое воскресенье у нас проходят детские библейские занятия.</p>
                       <p>Главная цель этих уроков – привить детям страх Божий, рассказать им о спасении от греха, принесенном Иисусом Христом, и научить их практически жить по Библии.</p>
                     <h4>Кому мне задать вопрос духовного характера?</h4>
                       <p>Задача церкви – приводить людей к Богу и помогать им в духовной жизни. Поэтому участие в духовных нуждах других людей – это радостная привилегия церкви.</p>
                       <p>В зависимости от того, что более естественно вам, вы можете...</p>
                       <ul>
-                        <li>Написать свой вопрос по электронной почте:</li>
+                        <li>Написать свой вопрос по электронной почте:  ovchinnikov70@mail.ru</li>
                         <li>Вы можете подойти к пастырю по окончанию богослужения.</li>
                       </ul>
                     </div>
                 </div>
 
                 <div class="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="vision-tab">
-                  <div style="background:url(https://i.pinimg.com/originals/9a/60/f7/9a60f7ee1babe0803c2decdadbe485f6.jpg); background-size: cover">
+                  <div style="background:url(); background-size: cover">
                     <section class="vision">
                       <div class="text-black py-5">
                         <h3 class="text-center ml-5">Во что мы верим?</h3>
@@ -170,13 +195,13 @@
                           <h4>Контакты</h4><br>
                           <h5>Пастор церкви</h5>
                           <p>Вячеслав Овчинников</p>
-                          <p>Телефон +7 921 210 6902</p>
-                          <p>Email </p>
+                          <p>Телефон: +7 921 210 6902</p>
+                          <p>Email: ovchinnikov70@mail.ru</p>
                           <br>
-                          <h5> Молодежный лидер</h5>
-                          <p>Овчинников</p>
-                          <p>Телефон </p>
-                          <p>Email  </p>
+                          <h5>Молодежный лидер</h5>
+                          <p>Роман Аверков</p>
+                          <p>Телефон: +7 981 681 4102</p>
+                        
                         </div>
 
                       </div>
@@ -216,11 +241,13 @@
       <div class="container-fluid text-center text-md-left">
         <div class="row">
           <div class="col-md-6 mt-md-0 mt-3">
-            <h5 class="text-uppercase font-weight-bold">Расписание служений</h5>
+            <h5 id="schedule" class="text-uppercase font-weight-bold">Расписание служений</h5>
             <p>Утреннее богослужение - Воскресенье в 11.00</p>
-            <p>Детская воскресная школа - Воскресенье в 11.30</p>
-            <p>Молодежное общение - Воскресенье в 17.00</p>
-            <p>Изучение библии - Среда в 19.00</p>  
+            <p>Чаепитие - Воскресенье в 12.30 </p>
+            <p>Общение для детей и подростков - Воскресенье в 12.45</p>
+            <p>Изучение библии - Среда в 19.00</p> 
+            <p>Молодежное общение - Четверг в 19.00 <br>(Место может меняться - уточняйте заранее)</p>
+             
 
           </div>
           <hr class="clearfix w-100 d-md-none pb-3">
@@ -234,11 +261,7 @@
           </div>
         </div>
       </div>
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/">Церковь "Дом Евангелия"</a>
-      </div>
-      <!-- Copyright -->
+      
     </footer>
   </header>
   </body>

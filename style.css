@@ -3,11 +3,11 @@
 body{
     overflow-x:hidden;
     font-family: 'Roboto', sans-serif;
-    background-color: #274564;
+    background-color: #10575c;
 }
 /*---navigation--*/
 #myTab{
-    background-color:#274564;
+    background-color:#10575c;
     color: white;
     text-transform:uppercase;
     font-weight:700;
@@ -19,7 +19,31 @@ body{
     text-transform: uppercase;
 }
 /*---landing page--*/
-
+.clearfix ::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+a:hover {
+    color: #6eb1cc;
+}
+.article-title{
+    color: black;
+}
+.article-title:hover {
+    color: #052d3d ;
+}
+.btn{
+    padding: .3rem .5rem;
+    background: #10575c;
+    color: #052d3d;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.btn:hover {
+    color: white !important;
+    background:#052d3d ;
+}
 .caption-home{
     width:100%;
     max-width:100%;
@@ -69,16 +93,54 @@ body{
     margin: 30px auto 30px;
     border: 1px solid gray;
 }
-.content.main-content{
+
+.content .main-content {
     width: 70%;
     float: left;
-    border:1px solid #274564;
+    border: 1px solid #274564;
 }
-.content.sidebar{
-    width:30%;
-    float:left;
-    border:1px dashed green;
-    height:300px;
+.content .main-content .post {
+    width: 95%;
+    height: 270px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: white;
+    position: relative;
+}
+.content .main-content .post .read-more{
+    position: absolute;
+    bottom:  2px;
+    right: 2px;
+    border: 1px solid #6eb1cc;
+    background: transparent;
+    border-radius: 0px;
+     color: #10575c;
+}
+.content .main-content .post .read-more:hover{
+    background-color: #10575c;
+    color: white!important;
+    transition: .25s;
+
+}
+.content .main-content .post .post-image{
+    width: 40%;
+    height: 170%;
+    float: left;
+}
+.content .main-content .post .post-preview{
+    width: 60%;
+    padding: 15px;
+    float: right;
+}
+
+.content .main-content .recent-post-title{
+    margin: 20px;
+}
+.content .sidebar{
+    width: 30%;
+    float: left;
+    border: 1px dashed green;
+    height: 300px;
 }
 #visit{
     color: whitesmoke;
@@ -88,9 +150,10 @@ body{
     margin-bottom: 50px;
 }
 .vision{
-    color:black;
+    color: antiquewhite;
     padding-left: 30px;
     padding-right: 30px;
+    
 }
 .contact{
     color: white;
@@ -108,6 +171,9 @@ body{
 }
 img{
     padding-bottom: 200px;
+}
+#article{
+
 }
 #adres{
     padding-bottom: 20px;
@@ -129,8 +195,11 @@ h4{
 }
 
 footer{
-    background-color: #274564;
+    background-color:#10575c ;
     opacity:1;
     color: white;
     padding-left: 2rem;
+}
+#schedule{
+    padding-bottom: 25px;
 }
